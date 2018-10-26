@@ -1,0 +1,163 @@
+<!doctypehtml> 
+<!--CREATED BY JULIA ANN LANGE--> 
+
+
+<!--FONTS CREDITED TO GOOGLE FONTS--> 
+
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+<!--FONTS END-->
+
+<style>
+
+/*MAIN CODE*/
+
+body{
+  background-color: #eee; 
+  background-image: url(https://images.pexels.com/photos/399160/pexels-photo-399160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+p{}
+b, strong{}
+i, em{}
+a{}
+a:hover, a:active{} 
+a:visited{} 
+
+/*END MAIN*/ 
+
+/*FLEXBOX*/ 
+#container{
+  background-color: #fff; 
+  border: 3px double #eee; 
+  height: 85vh;
+  width: 100vw; 
+  overflow-y: scroll;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*END FLEXBOX*/ 
+
+/*NAVIGATION*/ 
+
+#navbar{
+  background: #eee;
+  height: 90px;
+  position: static;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.nav1{
+  background-color: #A694AC;
+  border: 1px solid #fff;
+  color: #fff;
+  display: inline-block;
+  font-family: 'QuickSand', arial;
+  font-size: 50px;
+  height: 75px;
+  margin-left: auto; 
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: none;
+  width: 20%; 
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.nav1:hover{
+  background-color: #FBBDC4;
+  transition: 1s;
+}
+
+.nav2{
+  background-color: #FBBDC4;
+  border: 1px solid #fff;
+  color: #fff;
+  display: inline-block;
+  font-family: 'QuickSand', arial;
+  font-size: 50px;
+  height: 75px;
+  margin-left: auto; 
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: none;
+  width: 20%; 
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.nav2:hover{
+  background-color: #A694AC;
+  transition: 1s;
+}
+
+/*END NAVIGATION*/ 
+
+
+/*children*/ 
+
+#first{
+  height: 50%;
+  width: 100%;
+  background: #B0BACD;
+  margin-bottom: 7px;
+}
+
+#big{
+  height: 100vh;
+  width: 100%;
+  background: #FBD5D7;
+
+}
+
+
+#last{
+  height: 50%;
+  width: 100%;
+  background: #FCBDC5;
+  margin-top: 7px;
+}
+
+
+
+
+@media only screen (min-width: 300px){
+  #container{flex-direction: column; width: 100%;) 
+}
+
+
+
+
+</style> 
+
+<body>
+
+<div id="container">
+<nav id="navbar">
+<a class="nav1" href="/">link 1</a>
+<a class="nav2" href="/">link 2</a>
+<a class="nav1" href="/">link 3</a>
+<a class="nav2" "href=/">Link 4</a>
+</nav>
+
+
+ 
+
+<div id="first"></div>
+<div id="big"></div>
+<div id="last"></div>
+
+
+  
+  
+  
+</body>
